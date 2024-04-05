@@ -1,9 +1,14 @@
 package mvc;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Modele {
     private List<Task> listeTache;
+
+    public Modele(){
+        listeTache = new ArrayList<>();
+    }
 
     public void ajouterTache(Task tache){
         listeTache.add(tache);
