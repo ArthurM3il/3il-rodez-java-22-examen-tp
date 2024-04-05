@@ -8,9 +8,10 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 
 - [ ] Formulaire de saisie des détails de la tâche.
 - [ ] Bouton "Ajouter".
-- [ ] Test unitaire associé.
+- [x] Test unitaire associé.
 
-(Explication et justification de ce qui a été fait...)
+L'interface graphique n'est pas fonctionnelle.
+Cependant un modèle a été crée permettant de créer une liste de tâche et de la manipuler.
 
 ### Modification d'une tâche
 
@@ -38,8 +39,8 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 
 ### Gestion des priorités
 
-- [ ] Possibilité de définir la priorité lors de l'ajout ou de la modification de la tâche.
-- [ ] Test unitaire associé.
+- [x] Possibilité de définir la priorité lors de l'ajout ou de la modification de la tâche.
+- [x] Test unitaire associé.
 
 (Explication et justification de ce qui a été fait...)
 
