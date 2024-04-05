@@ -1,4 +1,4 @@
-import Exceptions.TacheNonExistanteException;
+package mvc;
 
 import java.util.List;
 
@@ -13,6 +13,11 @@ public class Modele {
         return listeTache;
     }
 
+    /**
+     * Méthode retournant une tâche via son id
+     * @param id
+     * @return la tache correspondant à l'id passé en paramètre, null sinon
+     */
     public Task getTache(int id){
         for(Task tache : listeTache){
             if (tache.getId() == id) return tache;

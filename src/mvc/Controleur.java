@@ -1,3 +1,7 @@
+package mvc;
+
+import mvc.Modele;
+
 public class Controleur {
     private Vue vue;
     private Modele modele;

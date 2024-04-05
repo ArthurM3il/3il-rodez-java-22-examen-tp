@@ -1,3 +1,5 @@
+package mvc;
+
 import enums.Priorite;
 
 //Modèle
