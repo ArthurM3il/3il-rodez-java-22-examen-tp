@@ -6,6 +6,7 @@ import mvc.Task;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 
 public class TestModele{
 
@@ -16,6 +17,12 @@ public class TestModele{
         System.out.println("Ce test est censé vérifier le bon retour d'une tâche par son id");
         modele.ajouterTache(tache1);
         assertEquals(modele.getTache(1),tache1);
+    }
+
+    @Test
+    public void testNonRetourTache(){
+        System.out.println("Ce test est censé vérifier le non retour d'une tâche si aucune n'est associé à l'id passé en paramètre");
+        assertNull(modele.getTache(5));
     }
 
 }
